@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import React from 'react'
 import Profile from './Components/Profile'
-import Header from './Components/header'
+import Header from './Components/Header'
+
 
 function App() {
   const [count, setCount] = useState(0)

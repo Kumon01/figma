@@ -3,7 +3,7 @@ import { Navbar, NavbarLink } from "flowbite-react";
 const  Header = () => {
   return (
     <Navbar fluid rounded>
-      <Navbar.Brand as={NavbarLink} href="https://flowbite-react.com">
+      <Navbar.Brand as={NavbarLink}>
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
       </Navbar.Brand>
       <Navbar.Toggle />
