@@ -1,18 +1,28 @@
-import { Navbar, NavbarLink } from "flowbite-react";
+import { 
+  Button, 
+  MegaMenu, 
+  MegaMenuDropdown, 
+  Navbar, 
+  NavbarBrand,
+  NavbarCollapse,
+  NavbarLink,
+  NavbarToggle
+} from 'flowbite-react';
 
 const  Header = () => {
   return (
-    <Navbar fluid rounded>
-      <Navbar.Brand as={NavbarLink}>
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
-      </Navbar.Brand>
-      <Navbar.Toggle />
-      <Navbar.Collapse>
-        <Navbar.Link href="#" active>
-          2024
-        </Navbar.Link>
-      </Navbar.Collapse>
+    <Navbar
+     fluid
+     rounded
+     className="fixed z-50 top-0 w-full bg-white/30 backdrop-blur-md flex justify-center"
+    >
+        <Navbar.Collapse>
+          <Navbar.Link href="#Home">Home</Navbar.Link>
+          <Navbar.Link href="#About">About</Navbar.Link>
+          <Navbar.Link href="#Portfolio">Portfolio</Navbar.Link>
+        </Navbar.Collapse>
     </Navbar>
+ 
   );
 }
 

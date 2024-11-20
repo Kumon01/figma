@@ -2,6 +2,13 @@ import { useState } from 'react'
 import React from 'react'
 import Profile from './Components/Profile'
 import Header from './Components/Header'
+import About from './Components/About'
+import Skills from './Components/skills'
+import Portfolio from './Components/Portfolio'
+import Contact from './Components/Contact'
+
+import { Footer } from 'flowbite-react'
+
 
 
 function App() {
@@ -11,6 +18,10 @@ function App() {
     <>
       <Header />
       <Profile />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Contact />
     </>
   )
 }

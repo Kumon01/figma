@@ -4,30 +4,23 @@ import {Card} from 'flowbite-react'
 
 const Profile = () => {
     return (
-        <Card>
-        <div className="flex justify-end px-4 pt-4"> 
-          
+    
+      <div id="Home" className="flex justify-evenly items-center pb-10 h-screen">
+        <div className="flex flex-col">
+          <h1 className="mb-1 text-xs font-medium text-yellow-900 dark:text-white">Hallo World,I'm</h1>
+          <h5 className="mb-1 text-3xl font-bold text-gray-900 dark:text-white">Dynand ibnukafi Pratama</h5>
+          <h5 className="mb-1 text-lg font-medium text-gray-900 dark:text-white">Junior Programing</h5>
+          <h5 className="mb-1 text-s font-medium text-yellow-900 dark:text-white">Wellocome to personal website 👋</h5>
         </div>
-        <div className="flex flex-col items-center pb-10">
           <img
-            alt="Bonnie image"
-            height="96"
-            src={pp}
-            width="96"
-            className="mb-3 rounded-full shadow-lg"
+              alt="Bonnie image"
+              height="180"
+              src={pp}
+              width="180"
+              className="mb-3 rounded-full shadow-lg flex justify-end"
           />
-         
-          <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">dynand</h5>
-          <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">phone +62 8953508937</h5>
-          <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
-          </div>
-          <div className="mt-4 flex space-x3 Ig:mt-6">
-            
-        </div>
-        <div>
-            <img src="" alt="" />
-        </div>
-        </Card>
+      </div>
+    
     )
   }
 
