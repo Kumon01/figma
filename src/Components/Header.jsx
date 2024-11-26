@@ -8,8 +8,18 @@ import {
   NavbarLink,
   NavbarToggle
 } from 'flowbite-react';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 const  Header = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 1000,
+    });
+  }, [])
+
   return (
     <Navbar
      fluid
