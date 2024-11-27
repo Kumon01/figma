@@ -10,9 +10,13 @@ const Profile = () => {
       <div id="Home" className="flex justify-evenly items-center h-screen">
         <div className="flex flex-col">
           <h1 className="mb-1 text-xs font-medium text-yellow-900 dark:text-white">Hallo World,I'm</h1>
-          <h5 className="mb-1 text-3xl font-bold text-gray-900 dark:text-white">Dynand ibnukafi Pratama</h5>
-          <h5 className="mb-1 text-lg font-medium text-gray-900 dark:text-white"><ReactTyped strings={["Junior Programing","Junior Programing"]} typeSpeed={150} /></h5>
-          <h5 className="mb-1 text-s font-medium text-yellow-900 dark:text-white">Wellcome to personal website 👋</h5>
+          <h5 className="mb-1 text-3xl font-bold text-gray-900 dark:text-white"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+            Dynand ibnukafi Pratama</h5>
+          <h5 className="mb-1 text-lg font-medium text-gray-900 dark:text-white"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+            <ReactTyped strings={["Junior Programing","Junior Programing"]} typeSpeed={150} /></h5>
+          <h5 className="mb-1 text-s font-medium text-yellow-900 dark:text-white" data-aos="fade-left" data-aos-duration="1800">Wellcome to personal website 👋</h5>
         </div>
           <img
               alt="Bonnie image"
@@ -20,6 +24,7 @@ const Profile = () => {
               src={pp}
               width="180"
               className="mb-3 rounded-full shadow-lg flex justify-end"
+              data-aos="fade-left"  data-aos-duration="1800"
           />
       </div>
     
