@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Components/Header';
 import Product from '../Components/Product'
 import '../styles/App.css'
+import Footer from '../Components/Footer';
 
 const Futsal = () => {
     return (
@@ -32,7 +33,10 @@ const Futsal = () => {
                    
                 />
             </main>
-        </div>
+           
+         <div className='mt-4'>
+        <Footer/></div>
+       </div>
     );
 };
 
