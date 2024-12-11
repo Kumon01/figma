@@ -5,7 +5,6 @@ import Header from './Components/Header';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { FaRunning } from 'react-icons/fa'; 
 import Football from './pages/Football';
-
 import Detailtango from './pages/Detailtango';
 
 
