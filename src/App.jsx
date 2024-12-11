@@ -1,27 +1,28 @@
-import { useState } from 'react'
-import React from 'react'
-import Profile from './Components/Profile'
-import Header from './Components/Header'
-import About from './Components/About'
-import Portfolio from './Components/Portfolio'
-import Contact from './Components/Contact'
+import React from 'react';
+import Futsal from './pages/Futsal';
+import Running from './pages/Running'
+import Header from './Components/Header';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { FaRunning } from 'react-icons/fa'; 
+import Football from './pages/Football';
 
-import { Footer } from 'flowbite-react'
+import Detailtango from './pages/Detailtango';
 
 
+const App = () => {
+    return (
+   <>
+      <Router>
+            <Routes>
+                <Route path="/futsal" element={<Futsal />} />
+                <Route path="/running" element={<Running />} />
+                <Route path="/football" element={<Football />} />
+                <Route path="/detail" element={<Detailtango/>} />
+                
+            </Routes>
+        </Router>
+   </>
+    );
+};
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Header />
-      <Profile />
-      <About />
-      <Portfolio />
-      <Contact />
-    </>
-  )
-}
-
-export default App
+export default App;

@@ -1,39 +1,21 @@
-import { 
-  Button, 
-  MegaMenu, 
-  MegaMenuDropdown, 
-  Navbar, 
-  NavbarBrand,
-  NavbarCollapse,
-  NavbarLink,
-  NavbarToggle
-} from 'flowbite-react';
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+import React from 'react';
+import { Link } from 'react-router-dom';  
+import '../styles/App.css';
 
-const  Header = () => {
-  useEffect(() => {
-    AOS.init({
-      offset: 200,
-      duration: 1000,
-    });
-  }, [])
+const Header = () => {
+    return (
+        <header className="header">
+            <img className="logo1" src="/logo22.jpg" alt="Logo" width="230" height="98" />
+            <nav className="nav">
+                <Link to="/" className="navbar">Home</Link>
+                <Link to="/running" className="navbar">Running</Link>
+                <Link to="/football" className="navbar">Football</Link>
+                <Link to="/futsal" className="navbar">Futsal</Link>
+                <a href="#"><button className="b1">Login</button></a>
+            </nav>
+        </header>
+    );
+};
 
-  return (
-    <Navbar
-     fluid
-     rounded
-     className="fixed z-50 top-0 w-full bg-white/30 backdrop-blur-md flex justify-center"
-    >
-        <Navbar.Collapse>
-          <Navbar.Link href="#Home">Home</Navbar.Link>
-          <Navbar.Link href="#About">About</Navbar.Link>
-          <Navbar.Link href="#Portfolio">Portfolio</Navbar.Link>
-        </Navbar.Collapse>
-    </Navbar>
- 
-  );
-}
+export default Header;
 
-export default Header
