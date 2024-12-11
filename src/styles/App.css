@@ -57,7 +57,7 @@
     box-shadow: 0px 5px 15px rgba(255, 98, 0, 0.4);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -135,7 +135,7 @@ body {
     margin: 0;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .product {
         flex-direction: column; 
@@ -241,7 +241,7 @@ footer {
     text-decoration: underline;
 }
 
-/* Tambahkan border pada ikon di footer-center */
+
 .footer-icon {
     background-color: #ffb13e;
     color: #fff;
