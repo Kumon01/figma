@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { FaRunning } from 'react-icons/fa'; 
 import Football from './pages/Football';
 import Detailtango from './pages/Detailtango';
-import { Home } from './pages/Home';
-impo
+import  Home from './pages/Home';
+
 
 
 const App = () => {
