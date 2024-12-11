@@ -13,7 +13,7 @@ const Futsal = () => {
                     price="Rp675.000"
                     availability="Tidak Tersedia"
                     image="bbs.jpg"
-                    linkTo="/detail/Detailtango"
+                   
                     
                 />
                 <Product
@@ -21,7 +21,7 @@ const Futsal = () => {
                     price="Rp500.000"
                     availability="Tersedia"
                     image="tango.jpg"
-                    linkTo="/detail/Detailtango"
+                  
                     
                 />
                 <Product
@@ -29,7 +29,7 @@ const Futsal = () => {
                     price="Rp499.000"
                     availability="Tersedia"
                     image="jogo.jpg"
-                    linkTo="/detail/Detailtango"
+                   
                 />
             </main>
         </div>

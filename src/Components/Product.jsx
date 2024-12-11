@@ -8,9 +8,7 @@ const Product = ({ title, price, image, availability }) => {
         <div className="product">
             <img className="product-image" src={image} alt={title} />
             <div className="product-details">
-               
                     <h2 className="product-title">{title}</h2>
-                
                 <p className="product-price">{price}</p>
                 <p className="product-info">{availability}</p>
             </div>
