@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Components/Header'
+import { banner, banner1, banner2, banner3 } from '../assets'
 
 
 const Home = () => {
@@ -7,10 +8,10 @@ const Home = () => {
     <div>
       <Header/>
     <div>
-      <img src="/public/uu.jpg" alt="" />
-      <img src="/public/pp.jpg" alt="" />
-      <img src="/public/oo.jpg" alt="" />
-      <img src="/public/mm.jpg" alt="" />
+      <img src={banner} alt="" />
+      <img src={banner1} alt="" />
+      <img src={banner2} alt="" />
+      <img src={banner3} alt="" />
     </div>
     </div>
   )
