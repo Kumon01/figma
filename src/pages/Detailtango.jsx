@@ -14,7 +14,6 @@ const Detailtango = () => {
       />
       <ProductDetails 
         namaproduk="JOGOSALA X TANGO VANILLA DELIGHT"
-        kode="11020465"
         harga="Rp500.000"
         deskripsi="Jogosala X Tango, sebuah karya kolaborasi dengan brand snack Tango
           yang telah lama dalam industri makanan ringan, kini melahirkan sebuah karya sepatu lokal buatan anak bangsa, dengan silo jogosala yang cukup sudah terkenal di kalangan pecinta futsal. Hi #TeamOrtuseight,

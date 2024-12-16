@@ -21,14 +21,7 @@ const Running = () => {
                     price="Rp699.000"
                     availability="tersedia"
                     image="runing1.jpg"
-                     
-                />
-                <Product
-                    title="HYPERBLAST EVO RN TANK - ELECTRICITY GREY"
-                    price="Rp179.000"
-                    availability="tersedia"
-                    image="running2.jpg"
-                    
+                
                 />
             </main>
             <div className='mt-4'>

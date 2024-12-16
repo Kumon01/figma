@@ -5,7 +5,6 @@ const ProductDetails = ({ namaproduk, kode, harga, deskripsi }) => {
   return (
     <div className="nama" >
       <h1 className="text">{namaproduk}</h1>
-      <h6 className="kode">{kode}</h6>
       <h3 className="harga">{harga}</h3>
       <p className="jelas">{deskripsi}</p>
       <h3 className="size">SIZE:</h3>

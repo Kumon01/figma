@@ -4,17 +4,17 @@ import ProductDetails from '../Components/Detail';
 import Carousel from '../Components/Slider';
 import Footer from '../Components/Footer';
 
-const Detailtango = () => {
+const Detailbbs = () => {
   return (
     <div>
       <Carousel
-        foto1="bbs1.jpg"
-        foto2="bbs2.jpg"
-        foto3="bbs3.jpg"
+        foto1="bbs.jpg"
+        foto2="bbs1.jpg"
+        foto3="bbs2.jpg"
+        foto4="bbs3.jpg"
       />
       <ProductDetails 
         namaproduk="Sepatu Futsal ORTUS JogosalaXBBS"
-        kode="11020340"
         harga="Rp675.000"
         deskripsi="Jogosala Crusher BBS SE 3.0 merupakan kolaborasi ketiga anatara Ortuseight x Bayu Saptaji. Dibuat khusus dalam seri terbatas dengan 
 			striking color berkombinasi warna magenta/vortex blue dan hitam, Marka 
@@ -29,4 +29,4 @@ const Detailtango = () => {
   );
 };
 
-export default Detailtango;
+export default Detailbbs;
