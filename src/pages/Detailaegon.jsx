@@ -4,7 +4,7 @@ import ProductDetails from '../Components/Detail';
 import Carousel from '../Components/Slider';
 import Footer from '../Components/Footer';
 
-const Detailaegon = () => {
+const Detaillaegon = () => {
   return (
     <div>
       <Carousel
@@ -25,4 +25,4 @@ const Detailaegon = () => {
   );
 };
 
-export default Detailaegon;
+export default Detaillaegon;

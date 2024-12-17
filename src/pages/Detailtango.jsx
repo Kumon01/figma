@@ -16,8 +16,8 @@ const Detailtango = () => {
         namaproduk="JOGOSALA X TANGO VANILLA DELIGHT"
         harga="Rp500.000"
         deskripsi="Jogosala X Tango, sebuah karya kolaborasi dengan brand snack Tango
-          yang telah lama dalam industri makanan ringan, kini melahirkan sebuah karya sepatu lokal buatan anak bangsa, dengan silo jogosala yang cukup sudah terkenal di kalangan pecinta futsal. Hi #TeamOrtuseight,
-          Untuk panduan ukuran bisa klik di 'Size Chart Lengkap' pada pilihan Variasi."
+        yang telah lama dalam industri makanan ringan, kini melahirkan sebuah karya sepatu lokal buatan anak 
+        bangsa, dengan silo jogosala yang cukup sudah terkenal di kalangan pecinta futsal."
       />
       <Footer/>
     </div>

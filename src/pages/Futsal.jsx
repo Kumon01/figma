@@ -10,35 +10,34 @@ const Futsal = () => {
         <div className="App">
             <Header />
             <main className="content">
-                
+                <Link to="/detailbbs" className="atribute:none">
                 <Product 
                     title="ORTUS FUTSAL JogosalaXBBS"
                     price="Rp675.000"
-                    availability="Tidak Tersedia"
-                    image="bbs.jpg"
-                    
-                />
+                    availability="Tersedia"
+                    image="bbs.jpg" 
+                /></Link>
+                <Link to="/detailtango">
                 <Product
                     title="ORTUS FUTSAL JogosalaXTango"
                     price="Rp500.000"
                     availability="Tersedia"
-                    image="tango.jpg"
-                    
-                />
+                    image="tango.jpg"  
+                /></Link>
+                <Link to="/detailascend">
                 <Product
                     title="ORTUS FUTSAL Jogosala Ascend-Black"
                     price="Rp499.000"
                     availability="Tersedia"
-                    image="ascend.jpg"
-                    
-                />
+                    image="ascend.jpg"   
+                /></Link>
+                <Link to="/detailstrive">
                 <Product
                     title="JOGOSALA STRIVE Beige Navy"
                     price="Rp399.000"
                     availability="Tersedia"
-                    image="strive.jpg"
-                    
-                />
+                    image="strive.jpg"  
+                /></Link>
             </main>
         
         <div className='mt-4'>

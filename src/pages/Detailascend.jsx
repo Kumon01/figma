@@ -15,7 +15,6 @@ const Detailascend = () => {
       />
       <ProductDetails 
         namaproduk="ORTUS FUTSAL Jogosala Ascend-Black"
-        kode="11020465"
         harga="Rp499.000"
         deskripsi="Jogosala Ascend, sepatu futsal terbaru yang diciptakan oleh Ortuseight, 
         meluncurkan inovasi terkini pada musim panas tahun 2024. Desainnya menggabungkan beberapa teknologi 
