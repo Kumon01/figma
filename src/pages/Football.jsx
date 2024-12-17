@@ -10,14 +10,14 @@ const Football = () => {
     <div className="App">
             <Header />
             <main className="content">
-                <Link to="/detailliberte">
+                <Link to="/detailliberte" className="link">
                 <Product
                     title="CATALYST LIBERTE V3 FGAnodized Silver Peach"
                     price="Rp539.000"
                     availability="Tersedia"
                     image="liberte.jpg"   
                 /></Link>
-                <Link to="/detailaegon">
+                <Link to="/detailaegon" className="link">
                 <Product
                     title="FORTE AEGON SE FG WHITE ORTED"
                     price="Rp849.000"

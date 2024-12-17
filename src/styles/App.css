@@ -100,6 +100,7 @@ body {
     align-items: center;
     gap: 1rem; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .product-image {
@@ -287,4 +288,8 @@ footer {
     .footer-media {
         justify-content: center;
     }
+}
+
+.link {
+    text-decoration:none;
 }

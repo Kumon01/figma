@@ -10,14 +10,14 @@ const Running = () => {
     <div className="App">
             <Header />
             <main className="content">
-                <Link to="/detailstars">
+                <Link to="/detailstars" className="link">
                 <Product
                     title="FRISBEE STARS AND STRIPES"
                     price="Rp749.000"
                     availability="tersedia"
                     image="running.jpg" 
                 /></Link>
-                <Link to="/detailglide">
+                <Link to="/detailglide" className="link">
                 <Product
                     title="HYPERGLIDE 2.0 SE GREAT WAVE"
                     price="Rp699.000"
